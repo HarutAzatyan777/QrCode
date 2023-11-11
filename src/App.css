@@ -1,0 +1,55 @@
+/* app.css */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px; /* Adjusted margin */
+}
+
+.qr-code-container {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Additional styles for copied message */
+.copied-message {
+  color: #28a745;
+  margin-top: 5px;
+}
